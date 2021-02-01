@@ -3,7 +3,7 @@ import { StyleSheet, View } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { zeroPad } from './utils/zeroPad';
 
-const MAX_HOURS = 23;
+const MAX_HOURS = 99;
 const MAX_MINUTES = 59;
 
 export function TimePicker({
